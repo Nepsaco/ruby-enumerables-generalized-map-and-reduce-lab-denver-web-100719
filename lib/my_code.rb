@@ -10,6 +10,7 @@ def map(array)
 end
 
 def reduce(array, starting_point = nil)
+  if starting_point
   i = 0
   value = starting_point
   while i < array.length
