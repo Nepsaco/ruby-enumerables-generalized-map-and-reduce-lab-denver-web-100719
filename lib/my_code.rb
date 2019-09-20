@@ -16,5 +16,4 @@ def reduce(array, starting_point = 0)
     yield(memory, array[i])
     i+=1
   end
-  memory
 end
