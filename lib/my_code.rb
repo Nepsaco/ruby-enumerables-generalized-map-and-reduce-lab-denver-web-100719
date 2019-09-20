@@ -13,7 +13,7 @@ def reduce(array, starting_point = 0)
   i = 0
   memory = starting_point
   while i < array.length
-    yield(starting_point, array[i])
+    yield(memory, array[i])
     i+=1
   end
   memory
