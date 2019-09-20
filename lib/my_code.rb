@@ -9,7 +9,7 @@ def map(array)
   new_array
 end
 
-def reduce(array, starting_point = 0)
+def reduce(array, starting_point = nil)
   i = 0
   value = starting_point
   while i < array.length
